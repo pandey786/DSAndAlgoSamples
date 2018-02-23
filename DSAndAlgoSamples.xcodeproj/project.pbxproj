@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35512FC320354606006D4EA0 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35512FC120354606006D4EA0 /* InsertionSort.swift */; };
+		35512FC420354606006D4EA0 /* SortingAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35512FC220354606006D4EA0 /* SortingAlgorithms.swift */; };
+		35512FC620354637006D4EA0 /* LinearSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35512FC520354637006D4EA0 /* LinearSearch.swift */; };
+		35512FC820354648006D4EA0 /* SearchAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35512FC720354648006D4EA0 /* SearchAlgorithms.swift */; };
+		35512FCA203549E2006D4EA0 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35512FC9203549E2006D4EA0 /* BinarySearch.swift */; };
+		35512FCC20355140006D4EA0 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35512FCB20355140006D4EA0 /* Tree.swift */; };
+		35512FCE203555D6006D4EA0 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35512FCD203555D6006D4EA0 /* BinaryTree.swift */; };
+		35512FD020355BA6006D4EA0 /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35512FCF20355BA6006D4EA0 /* BinarySearchTree.swift */; };
 		35A3119D2033F8BF0066C2DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A3119C2033F8BF0066C2DA /* AppDelegate.swift */; };
 		35A3119F2033F8BF0066C2DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A3119E2033F8BF0066C2DA /* ViewController.swift */; };
 		35A311A22033F8BF0066C2DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A311A02033F8BF0066C2DA /* Main.storyboard */; };
@@ -14,6 +22,8 @@
 		35A311A72033F8BF0066C2DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A311A52033F8BF0066C2DA /* LaunchScreen.storyboard */; };
 		35A311B22033F8BF0066C2DA /* DSAndAlgoSamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A311B12033F8BF0066C2DA /* DSAndAlgoSamplesTests.swift */; };
 		35A311BD2033F8BF0066C2DA /* DSAndAlgoSamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A311BC2033F8BF0066C2DA /* DSAndAlgoSamplesUITests.swift */; };
+		35A311CC2033F9590066C2DA /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A311CB2033F9590066C2DA /* Stack.swift */; };
+		35A311CE2033FE920066C2DA /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A311CD2033FE920066C2DA /* Queue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35512FC120354606006D4EA0 /* InsertionSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
+		35512FC220354606006D4EA0 /* SortingAlgorithms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortingAlgorithms.swift; sourceTree = "<group>"; };
+		35512FC520354637006D4EA0 /* LinearSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearSearch.swift; sourceTree = "<group>"; };
+		35512FC720354648006D4EA0 /* SearchAlgorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAlgorithms.swift; sourceTree = "<group>"; };
+		35512FC9203549E2006D4EA0 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
+		35512FCB20355140006D4EA0 /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
+		35512FCD203555D6006D4EA0 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
+		35512FCF20355BA6006D4EA0 /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
 		35A311992033F8BF0066C2DA /* DSAndAlgoSamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSAndAlgoSamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35A3119C2033F8BF0066C2DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35A3119E2033F8BF0066C2DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +65,8 @@
 		35A311B82033F8BF0066C2DA /* DSAndAlgoSamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSAndAlgoSamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35A311BC2033F8BF0066C2DA /* DSAndAlgoSamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSAndAlgoSamplesUITests.swift; sourceTree = "<group>"; };
 		35A311BE2033F8BF0066C2DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35A311CB2033F9590066C2DA /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		35A311CD2033FE920066C2DA /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +94,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35512FBF20354606006D4EA0 /* Search Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				35512FC720354648006D4EA0 /* SearchAlgorithms.swift */,
+				35512FC520354637006D4EA0 /* LinearSearch.swift */,
+				35512FC9203549E2006D4EA0 /* BinarySearch.swift */,
+			);
+			path = "Search Algorithms";
+			sourceTree = "<group>";
+		};
+		35512FC020354606006D4EA0 /* Sort Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				35512FC220354606006D4EA0 /* SortingAlgorithms.swift */,
+				35512FC120354606006D4EA0 /* InsertionSort.swift */,
+			);
+			path = "Sort Algorithms";
+			sourceTree = "<group>";
+		};
 		35A311902033F8BF0066C2DA = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +136,8 @@
 		35A3119B2033F8BF0066C2DA /* DSAndAlgoSamples */ = {
 			isa = PBXGroup;
 			children = (
+				35A311CF203406270066C2DA /* Algorithms */,
+				35A311CA2033F9500066C2DA /* Data Structures */,
 				35A3119C2033F8BF0066C2DA /* AppDelegate.swift */,
 				35A3119E2033F8BF0066C2DA /* ViewController.swift */,
 				35A311A02033F8BF0066C2DA /* Main.storyboard */,
@@ -123,6 +164,27 @@
 				35A311BE2033F8BF0066C2DA /* Info.plist */,
 			);
 			path = DSAndAlgoSamplesUITests;
+			sourceTree = "<group>";
+		};
+		35A311CA2033F9500066C2DA /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				35A311CB2033F9590066C2DA /* Stack.swift */,
+				35A311CD2033FE920066C2DA /* Queue.swift */,
+				35512FCB20355140006D4EA0 /* Tree.swift */,
+				35512FCD203555D6006D4EA0 /* BinaryTree.swift */,
+				35512FCF20355BA6006D4EA0 /* BinarySearchTree.swift */,
+			);
+			path = "Data Structures";
+			sourceTree = "<group>";
+		};
+		35A311CF203406270066C2DA /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				35512FBF20354606006D4EA0 /* Search Algorithms */,
+				35512FC020354606006D4EA0 /* Sort Algorithms */,
+			);
+			path = Algorithms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +322,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				35A3119F2033F8BF0066C2DA /* ViewController.swift in Sources */,
+				35512FC820354648006D4EA0 /* SearchAlgorithms.swift in Sources */,
+				35512FCA203549E2006D4EA0 /* BinarySearch.swift in Sources */,
+				35512FC320354606006D4EA0 /* InsertionSort.swift in Sources */,
+				35512FC420354606006D4EA0 /* SortingAlgorithms.swift in Sources */,
+				35512FCC20355140006D4EA0 /* Tree.swift in Sources */,
+				35512FCE203555D6006D4EA0 /* BinaryTree.swift in Sources */,
+				35512FC620354637006D4EA0 /* LinearSearch.swift in Sources */,
+				35512FD020355BA6006D4EA0 /* BinarySearchTree.swift in Sources */,
+				35A311CC2033F9590066C2DA /* Stack.swift in Sources */,
 				35A3119D2033F8BF0066C2DA /* AppDelegate.swift in Sources */,
+				35A311CE2033FE920066C2DA /* Queue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
